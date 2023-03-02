@@ -1,0 +1,575 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(https://apprendre-la-photo.fr/wp-content/uploads/2019/03/andreas-palmer-UJSjxFNLFWY-unsplash-scaled.jpg);
+    background-size: 100% 13%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 400px;
+    margin: auto;
+
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+/*HEADER*/
+header {
+    margin: 70px 0px;
+}
+
+header a {
+    color: rgb(255, 253, 253);
+}
+
+.n1,
+.n2 {
+    background-color: rgb(252, 168, 0);
+    border-radius: 5px;
+    margin: 10px 0px;
+
+}
+
+.n1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+.n1 a {
+    display: flex;
+    gap: 10px;
+}
+
+i {
+    padding-top: 5px;
+}
+
+.n2 {
+    float: right;
+    padding: 10px;
+    margin-right: 12%;
+}
+
+/*MAIN*/
+.container {
+    border: 0px solid black;
+    padding: 5px;
+}
+
+.box {
+    border: 0px solid black;
+    background-color: rgb(252, 168, 0);
+    padding: 3px;
+    border-radius: 20px;
+    width: 40%;
+}
+
+
+
+/*fieldset*/
+fieldset {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border: 0px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+fieldset img {
+
+    border-radius: 100%;
+    width: 70%;
+}
+
+fieldset h1 {
+    font-family: sans-serif;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+
+fieldset h2 {
+    color: rgb(252, 168, 0);
+    font-family: sans-serif;
+    opacity: 0.9;
+    padding: 5px;
+}
+
+fieldset p {
+
+    opacity: 0.9;
+    padding: 15px;
+}
+
+fieldset a img {
+    width: 2%;
+    background-color: gray;
+}
+
+span {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+/*section 1*/
+
+.s1 .div {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.s1 h4 {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s1 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(40, 40, 40);
+}
+
+.d2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.d2 a {
+    padding: 10px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.d2 a:hover {
+    color: rgb(252, 168, 0);
+}
+
+.s1 .div1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-flow: row;
+    gap: 10px;
+}
+
+
+.img1 {
+
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.img2 {
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+
+.img3 {
+    grid-column: 5/7;
+    grid-row: 1/2;
+}
+
+.img4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.img5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.img6 {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.img7 {
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+.img8 {
+    grid-column: 3/5;
+    grid-row: 3/4;
+
+}
+
+.img9 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.img10 {
+
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.img11 {
+    grid-column: 5/7;
+    grid-row: 3/5;
+}
+
+.one {
+    width: 100%;
+    height: 100%;
+}
+
+.div1 img {
+    width: 100%;
+    height: 100%;
+}
+
+/*section 2*/
+.s2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+
+.s2 .div1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px
+}
+
+.s2 .div {
+    padding: 30px;
+}
+
+.s2 h4 {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.s2 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+
+}
+
+.s2 h5 {
+    color: rgb(252, 168, 0);
+    padding: 5px;
+}
+
+.s2 p {
+    padding: 5px;
+}
+
+.s2 .p1 {
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.s2 .d1 {
+    border: 1px solid transparent;
+    border-radius: 70px;
+    margin: 10px;
+    padding: 1px;
+    background-color: rgb(252, 168, 0);
+
+}
+
+.s2 .d2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 80px;
+    background-color: white;
+    padding: 30px;
+}
+
+.s2 .d3 {
+    border: 1px solid transparent;
+    padding: 10px 1px;
+    margin: 10px;
+    border-radius: 90px;
+    background-color: rgb(252, 168, 0);
+}
+
+.div1 p {
+    text-align: center;
+}
+
+.one {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 70px;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+
+
+}
+
+/*section 3*/
+.s3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 6, 54);
+    color: white;
+    padding: 60px;
+}
+
+.s3 .div div {
+    padding: 20px;
+}
+
+.s3 h4 {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.s3 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.s3 h5 {
+    color: rgb(252, 168, 0);
+    padding: 10px;
+}
+
+.s3 p {
+    padding: 10px;
+}
+
+ul {
+    list-style: circle;
+}
+
+/*section 4*/
+.s4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.s4 .div {
+    padding: 20px;
+
+}
+
+.s4 h4 {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.s4 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.s4 h5 {
+    color: rgb(252, 168, 0);
+    padding: 10px;
+}
+
+.s4 p {
+    padding: 10px;
+}
+
+
+/*section 5*/
+.s5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    padding: 40px;
+    background: url(images/background-images/images.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.s5 div {
+    display: flex;
+    padding: 10px 55px;
+
+}
+
+.s5 .p1 {
+    padding: 10px;
+    font-weight: 900;
+    font: 50px sans-serif;
+}
+
+.s5 .p2 {
+    position: relative;
+    top: 17px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: rgb(14, 14, 79);
+    color: gray;
+    text-align: center;
+    padding: 30px;
+
+}
+
+footer a {
+    color: gray;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-size: 100% 10%;
+    }
+
+    .n2 {
+        float: right;
+        padding: 10px;
+        margin-right: 10%;
+    }
+
+    fieldset a img {
+        width: 5%;
+        background-color: gray;
+    }
+
+    .s1 .div1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-auto-flow: row;
+
+    }
+
+    .one {
+        width: 100%;
+        height: 100%;
+    }
+
+    .div1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img1 {
+
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .img2 {
+        grid-column: 3/5;
+        grid-row: 1/3;
+    }
+
+    .img3 {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .img4 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+
+    }
+
+    .img5 {
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+
+    .img6 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .img7 {
+        grid-column: 1/3;
+        grid-row: 4/6;
+    }
+
+    .img8 {
+        grid-column: 3/5;
+        grid-row: 4/5;
+
+    }
+
+    .img9 {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .img10 {
+
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+    .img11 {
+        grid-column: 3/5;
+        grid-row: 5/7;
+    }
+
+    .s2 .d3 {
+        border: 1px solid transparent;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 90px;
+        background-color: rgb(252, 168, 0);
+    }
+
+    .one {
+
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+
+    }
+}
+@media screen  and (max-width:500px){
+    /*section*/
+     body{
+        background-image:none;
+     }
+     .n1 .p2{
+        text-align: left;
+     }
+    .s1 .div{
+        display: block;
+       
+    }
+    .s1 .div1{
+        display: flex;
+        flex-direction: column;
+    }
+    .s2{
+        display: block;
+    }
+
+    .s3{
+        display: block;
+
+    }
+    .s4{
+        display: block;
+    }
+}
