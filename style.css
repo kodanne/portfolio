@@ -142,21 +142,21 @@ span {
     color: rgb(40, 40, 40);
 }
 
-.d2 {
+.s1 .d2 {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
 
 }
 
-.d2 a {
+.s1 .d2 a {
     padding: 10px;
     color: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
 }
 
-.d2 a:hover {
+.s1 .d2 a:hover {
     color: rgb(252, 168, 0);
 }
 
@@ -228,10 +228,6 @@ span {
     grid-row: 3/5;
 }
 
-.one {
-    width: 100%;
-    height: 100%;
-}
 
 .div1 img {
     width: 100%;
@@ -284,46 +280,53 @@ span {
 }
 
 .s2 .d1 {
-    border: 1px solid transparent;
-    border-radius: 70px;
+    border: 0px;
+    border-radius: 90px;
+    width: 150px;
     margin: 10px;
-    padding: 1px;
-    background-color: rgb(252, 168, 0);
-
 }
 
 .s2 .d2 {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid transparent;
-    border-radius: 80px;
-    background-color: white;
-    padding: 30px;
-}
-
-.s2 .d3 {
-    border: 1px solid transparent;
-    padding: 12px;
-    margin: 10px;
+    border: 0px;
     border-radius: 90px;
-    background-color: rgb(252, 168, 0);
-}
+    width: 150px;
+    height: 150px;
+    background:
+        radial-gradient(closest-side, white 85%, transparent 86% 100%),
 
-.div1 p {
-    text-align: center;
 }
 
 .one {
-    width: 80%;
-    margin: auto;
-    background-color: white;
-    border-radius: 70px;
-    padding: 10px 22px;
-    position: relative;
-    bottom: 10px;
-    right: 9px;
-   
+    background:
+        radial-gradient(closest-side, white 90%, transparent 91% 100%),
+        conic-gradient(rgb(249, 166, 0) 87%, rgb(251, 251, 251) 0);
 }
+
+.two {
+    background:
+        radial-gradient(closest-side, white 90%, transparent 91% 100%),
+        conic-gradient(rgb(249, 166, 0) 78%, rgb(251, 251, 251) 0);
+}
+
+.three {
+    background:
+        radial-gradient(closest-side, white 90%, transparent 91% 100%),
+        conic-gradient(rgb(249, 166, 0) 67%, rgb(251, 251, 251) 0);
+}
+
+.four {
+    background:
+        radial-gradient(closest-side, white 90%, transparent 91% 100%),
+        conic-gradient(rgb(249, 166, 0) 87%, rgb(251, 251, 251) 0);
+}
+
+.div1 p {
+    position: relative;
+    top: 40px;
+    text-align: center;
+
+}
+
 
 /*section 3*/
 .s3 {
@@ -487,11 +490,6 @@ footer a {
 
     }
 
-    .one {
-        width: 100%;
-        height: 100%;
-    }
-
     .div1 img {
         width: 100%;
         height: 100%;
@@ -554,23 +552,6 @@ footer a {
     .img11 {
         grid-column: 3/5;
         grid-row: 5/7;
-    }
-
-    /*section 2*/
-    .s2 .d3 {
-        border: 1px solid transparent;
-        padding: 13px 16px;
-        margin: 10px;
-        border-radius: 90px;
-        background-color: rgb(252, 168, 0);
-    }
-
-    .one {
-        padding: 10px 15px;
-        position: relative;
-        bottom: 10px;
-        right: 15px;
-
     }
 
     /*section 4*/
